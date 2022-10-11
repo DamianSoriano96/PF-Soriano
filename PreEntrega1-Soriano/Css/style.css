@@ -1,0 +1,80 @@
+/*Aqui cite los dos fonts que utilizare en el proyecto. Cabe destacar que pueden modificarse a lo largo del proyecto*/
+@import url('https://fonts.googleapis.com/css2? family= Oswald & family= Raleway:ital@1 & display=swap');
+
+/* font-family: 'Oswald', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+
+/* Agregue el reset de toda la pagina */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    padding: 50px;
+    background-color:#FFD3CA;
+}
+
+.header h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #000000;
+}
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li{
+    display: inline;
+    float: right;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    margin: 10px;
+    background-color: #000000;
+    color: #EECAFF;
+}
+
+.main{
+    background-image: linear-gradient(to right bottom, #ddb0ff, #daa9ff, #d7a2ff, #d39bff, #d094ff, #c78bf6, #be81ee, #b578e5, #a46ad2, #945bbf, #844ead, #74409b);
+    padding: 10px 10px 10px 10px;
+}
+
+.main h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+.main section{
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+}
+
+.form{
+    font-family: 'Raleway', sans-serif;
+    position:relative;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    padding: 50px;
+    box-sizing: content-box;
+    background: #FFF;    
+}
+
+.footer {
+    background-color: black;
+    padding: 50px;
+
+}
+
+
+.footer nav h3 {
+    color: violet;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    display: inline;
+}
