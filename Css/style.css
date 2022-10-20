@@ -75,13 +75,11 @@
     padding: 50px;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-content: space-between;
 }
 
 
-.footer nav h3 {
-    color: violet;
-    font-family: 'Raleway', sans-serif;
+.footer nav a {
     padding: 10px;
     display: inline-block;
 }
