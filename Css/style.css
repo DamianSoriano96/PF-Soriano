@@ -347,3 +347,229 @@
       opacity: 1;
     }
  }
+
+ .logo{
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.facebook {
+    mask: url(../Assets/Img/Facebook.png.png) no-repeat center / contain;
+    -webkit-mask: url(../Assets/Img/Facebook.png.png) no-repeat center / contain;
+  }
+
+/**Aca agregue nuevas clases para un footer con redes sociales y hover**/
+.facebook:hover{
+    background-color: #3b5998;
+  }
+
+.youtube {
+    mask: url(../Assets/Img/youtube.png) no-repeat center / contain;
+    -webkit-mask: url(../Assets/Img/youtube.png) no-repeat center / contain;
+  }
+
+
+.youtube:hover{
+    background-color: red;
+}
+
+.instagram {
+    
+    mask: url(../Assets/Img/instagram\ logo\ 2.png) no-repeat center / contain;
+    -webkit-mask: url(../Assets/Img/instagram\ logo\ 2.png) no-repeat center / contain;
+
+  }
+
+
+.instagram:hover{
+    background-color: #E1306C;
+}
+
+.tiktok {
+    mask: url(../Assets/Img/tiktok.png) no-repeat center / contain;
+    -webkit-mask: url(../Assets/Img/tiktok.png) no-repeat center / contain;
+  }
+
+
+.tiktok:hover{
+    background: linear-gradient(#ff0050, #00f2ea);
+}
+
+
+/**Agregue los 2 mediaquery que se pedian, desktop y mobile**/
+
+@media screen and (max-width: 1024px) {
+
+    .navlinks li{
+        padding: 10px;
+    }
+    
+    .box-2{
+        align-self: center;
+    }
+    
+    .box-3 { 
+        align-self: center;
+    }
+    
+    .flex img{ 
+        width: 40% ;
+    }
+    
+    .flex2 img{
+        width: 40%;
+    }
+    
+    .flex-video iframe{
+    
+        width: 280px;
+        height: 200px;
+    
+    }
+    
+    }
+    
+    @media screen and  (max-width: 320px) { 
+    
+    .header{
+        padding: 10px;
+        flex-direction: column;
+    }
+    
+    .header h1{
+         text-align: center;
+    }
+    
+    .navlinks{ 
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .navlinks li{
+        font-size: 15px;
+    }
+    
+    
+    .flex{
+        flex-direction: column;
+    }
+    
+    .flex h2{
+        padding-top: 10px;
+        font-size: larger;
+    }
+    
+    .flex p {
+        font-size: medium;
+        text-align: center;
+    }
+    
+    .flex img{
+        align-self: center;
+        width: 200px;
+        height: 200px;
+    
+    }
+    
+    
+    .flex2{
+        flex-direction: column;
+    }
+    
+    .flex2 h2{
+        padding-top: 10px;
+        font-size: larger;
+    }
+    
+    .flex2 p {
+        font-size: medium;
+        text-align: center;
+    }
+    
+    .flex2 img{
+        align-self: center;
+        width: 200px;
+        height: 200px;
+    
+     }
+    
+    .box-1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .footer{
+        flex-direction: row;
+    
+    }
+    
+     .footer nav a{
+        padding: 10px;
+        align-items: center;
+    
+     }
+    
+    .gallery-container{
+    
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    .grid-item1{
+        margin: 0 auto;
+        width: 250px;
+        grid-area: grid-item1;
+    }
+    
+    .grid-item2{
+        margin: 0 auto;
+        width: 250px;
+        grid-area: grid-item2;
+    }
+    
+    
+    .grid-item3{
+        margin: 0 auto;
+        width: 250px;
+        grid-area: grid-item3;
+    }
+    
+    
+    .grid-item4{
+        margin: 0 auto;
+        width: 250px;
+        grid-area: grid-item4;
+    }
+    
+    
+    .grid-item5{
+        margin: 0 auto;
+        width: 250px;
+        grid-area: grid-item5;
+    }
+    
+    .grid-item6{
+        margin: 0 auto;
+        width: 250px;
+        grid-area: grid-item6;
+    }
+    
+    
+    .flex-video{
+        flex-direction: column;
+    }
+    
+    .flex-video iframe{
+        padding-bottom: 10px;
+        width: 200px;
+        height: 150px;
+    }
+    
+    }
