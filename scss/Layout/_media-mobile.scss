@@ -1,6 +1,6 @@
 @media screen and  (max-width: 320px) { 
     
-    .header{
+    .header1{
         padding: 10px;
         flex-direction: column;
         h1{
@@ -33,7 +33,9 @@
            object-fit:cover
         }
     }
-    
+
+    /**Quise hacer un extend acá pero me crashea al igual que otras partes del mobile **/
+
     .flex2{
         flex-direction: column;
         h2{
@@ -77,44 +79,7 @@
     
     }
     
-    .grid-item1{
-        margin: 0 auto;
-        width: 250px;
-        grid-area: grid-item1;
-    }
-    
-    .grid-item2{
-        margin: 0 auto;
-        width: 250px;
-        grid-area: grid-item2;
-    }
-    
-    
-    .grid-item3{
-        margin: 0 auto;
-        width: 250px;
-        grid-area: grid-item3;
-    }
-    
-    .grid-item4{
-        margin: 0 auto;
-        width: 250px;
-        grid-area: grid-item4;
-    }
-    
-    .grid-item5{
-        margin: 0 auto;
-        width: 250px;
-        grid-area: grid-item5;
-    }
-    
-    .grid-item6{
-        margin: 0 auto;
-        width: 250px;
-        grid-area: grid-item6;
-    }
-    
-    
+
     .flex-video{
         flex-direction: column;
 
@@ -125,8 +90,18 @@
         }
      }
     
-
-     .box-ubication2{
-        object-fit: cover;
+     .box-ubication1{
+        justify-self: center;
      }
+
+
+     .map1{
+        width: 250px;
+        height: 150px;
+     }
+
+     .map2{
+        @extend .map1;
+     }
+     
     }

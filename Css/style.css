@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap");
 * {
@@ -139,6 +140,60 @@
   100% {
     opacity: 1; } }
 
+.contact-form-wrapper {
+  padding: 50px 0; }
+
+.contact-form {
+  padding: 30px 40px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 12px;
+  max-width: 400px; }
+
+.contact-form textarea {
+  resize: none; }
+
+.contact-form .form-input,
+.form-text-area {
+  background-color: #ffffff;
+  height: 50px;
+  padding-left: 16px; }
+
+.contact-form .form-text-area {
+  background-color: #ffffff;
+  height: auto;
+  padding-left: 16px; }
+
+.contact-form .form-control:focus {
+  border-color: #f33fb0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #f33fb0; }
+
+.contact-form .title {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500; }
+
+.contact-form .description {
+  color: white;
+  font-size: 14px;
+  text-align: center; }
+
+.contact-form .submit-button-wrapper {
+  text-align: center; }
+
+.contact-form .submit-button-wrapper input {
+  border: none;
+  border-radius: 4px;
+  background-color: #f23292;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 60px;
+  font-weight: 500;
+  letter-spacing: 2px; }
+
+.contact-form .submit-button-wrapper input:hover {
+  background-color: #d30069; }
+
 .containergrid2 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -197,10 +252,10 @@
     height: 200px; } }
 
 @media screen and (max-width: 320px) {
-  .header {
+  .header1 {
     padding: 10px;
     flex-direction: column; }
-    .header h1 {
+    .header1 h1 {
       text-align: center; }
   .navlinks {
     padding: 0;
@@ -221,6 +276,7 @@
       width: 200px;
       height: 200px;
       object-fit: cover; }
+  /**Quise hacer un extend acá pero me crashea al igual que otras partes del mobile **/
   .flex2 {
     flex-direction: column; }
     .flex2 h2 {
@@ -247,38 +303,17 @@
     display: flex;
     flex-direction: column;
     justify-content: center; }
-  .grid-item1 {
-    margin: 0 auto;
-    width: 250px;
-    grid-area: grid-item1; }
-  .grid-item2 {
-    margin: 0 auto;
-    width: 250px;
-    grid-area: grid-item2; }
-  .grid-item3 {
-    margin: 0 auto;
-    width: 250px;
-    grid-area: grid-item3; }
-  .grid-item4 {
-    margin: 0 auto;
-    width: 250px;
-    grid-area: grid-item4; }
-  .grid-item5 {
-    margin: 0 auto;
-    width: 250px;
-    grid-area: grid-item5; }
-  .grid-item6 {
-    margin: 0 auto;
-    width: 250px;
-    grid-area: grid-item6; }
   .flex-video {
     flex-direction: column; }
     .flex-video iframe {
       padding-bottom: 10px;
       width: 200px;
       height: 150px; }
-  .box-ubication2 {
-    object-fit: cover; } }
+  .box-ubication1 {
+    justify-self: center; }
+  .map1, .map2 {
+    width: 250px;
+    height: 150px; } }
 
 .footer3 {
   background-color: black;
