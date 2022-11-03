@@ -1,0 +1,39 @@
+.grid-ubicacion{
+    display: grid;
+    grid-template-rows: 50px, repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-template-areas: 
+    "ubication1 ubication1 ubication1 ubication1"
+    "ubication2 ubication2 ubication2 ubication2"
+    "ubication3 ubication3 ubication3 ubication3"
+    ;
+}
+
+.box-ubication1{
+    grid-area: ubication1;
+    color: $color;
+    background-color: $backgroundcolor;
+    justify-self:start;
+    align-self: center;
+}
+
+.box-ubication2{
+    grid-area: ubication2;
+    color: $color;
+    justify-self: center;
+    align-self: center;
+    background-color: $backgroundcolor;
+    text-align: center;
+    font-size: larger;
+}
+
+.box-ubication3{
+    grid-area: ubication3;
+    color: $color;
+    justify-self: center;
+    align-self: center;
+    background-color: $backgroundcolor;
+    text-align: center;
+    font-size: larger;
+}

@@ -1,0 +1,167 @@
+.main2{
+    background-image: url(../Assets/Img/607.jpg);
+    background-size:cover;
+    padding: 10px 10px 10px 10px;
+
+
+    h1{
+      font-family: 'lato', sans-serif;
+    }
+
+    section{
+        font-family: 'Raleway', sans-serif;
+        padding: 20px;
+    }
+
+}
+
+.containergrid{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: 50px repeat(3,1fr);
+  gap: 10px;
+  grid-template-areas: 
+  "box-1 box-1 box-1 box-1 box-1" 
+  "box-2 box-2 box-2 box-2 box-2"
+  "box-3 box-3 box-3 box-3 box-3"
+  "box-4 box-4 box-4 box-4 box-4"
+  ;
+
+}
+
+.box-1{
+  display: flex;
+  justify-content: center;
+  justify-self: start;
+  align-self: center;
+  color: $color;
+  background-color: $backgroundcolor;
+  grid-area: box-1;
+}
+
+.box-2{
+  align-self: center;
+  background-color: $backgroundcolor ;
+  grid-area: box-2;
+
+  h2{ 
+    color: $color;
+    justify-self: center;
+  }
+
+  p{
+    color: $color;
+  }
+}
+
+.box-3{
+  align-self: center;
+  background-color:$backgroundcolor;
+  grid-area: box-3;
+    h2{
+      color: $color;
+    }
+    p{
+      color: $color;
+    }
+}
+
+
+.box-4 { 
+  @extend .box-3;
+  grid-area: box-4;
+}
+
+
+.flex{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  align-content: center; 
+
+    p{ 
+    justify-self: center;
+    align-self: center;
+    font-size:larger;
+    padding: 10px;
+    margin: 10px;
+    }
+
+
+    h2{
+    text-align: center;
+    justify-self:start;
+    align-self: center;
+    font-size: 30px;
+    }
+
+    img{
+    border-radius: 20px;
+    width: 500px;
+    }   
+
+}
+
+.flex2{
+  @extend .flex;
+  flex-direction: row-reverse;
+
+}
+
+.textanimation {
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: text-focus-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  }
+  
+  @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+      filter: blur(12px);
+      opacity: 0;
+    }
+  
+    100% {
+      -webkit-filter: blur(0px);
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+      filter: blur(12px);
+      opacity: 0;
+    }
+  
+    100% {
+      -webkit-filter: blur(0px);
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+  .animacion {
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  }
+  
+  @-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }

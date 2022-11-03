@@ -1,0 +1,56 @@
+.footer3 {
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+  
+     a {
+      padding: 10px;
+      display: inline-block;
+    }
+  }
+
+.logo {
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    background-color: rgb(251, 251, 251);
+  }
+  
+  .facebook {
+    mask: url(../Assets/Img/Facebook.png.png) no-repeat (center / contain);
+    -webkit-mask: url(../Assets/Img/Facebook.png.png) no-repeat (center / contain);
+  
+    &:hover {
+      background-color: #3b5998;
+    }
+  }
+  
+  
+  .youtube {
+    mask: url(../Assets/Img/youtube.png) no-repeat (center / contain);
+    -webkit-mask: url(../Assets/Img/youtube.png) no-repeat (center / contain);
+  
+    &:hover {
+      background-color: red;
+    }
+  }
+  
+  .instagram {
+    mask: url(../assets/img/instagram.png) no-repeat (center / contain);
+    -webkit-mask: url(../Assets/Img/instagram.png) no-repeat (center / contain);
+  
+    &:hover {
+      background-color: #E1306C;
+    }
+  }
+  
+  .tiktok {
+    mask: url(../Assets/Img/tiktok.png) no-repeat (center / contain);
+    -webkit-mask: url(../Assets/Img/tiktok.png) no-repeat (center / contain);
+  
+    &:hover {
+      background: linear-gradient(#ff0050, #00f2ea);
+    }
+  }

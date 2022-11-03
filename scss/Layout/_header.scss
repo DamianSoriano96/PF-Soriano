@@ -1,0 +1,30 @@
+.header1{
+    background: #010101;
+    background: -webkit-linear-gradient(top, #010101, #555660);
+    background: -moz-linear-gradient(top, #010101, #555660);
+    background: linear-gradient(to bottom, #010101, #555660);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    font-family:'lato', sans-serif;
+
+    h1{
+        color:violet
+    }
+}
+
+
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+
+    a { 
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        transition: all 0.3s ease 0s;}
+
+    & a:hover{
+        color:violet
+    }
+ }
