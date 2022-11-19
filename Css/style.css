@@ -30,7 +30,7 @@
     color: violet; }
 
 .main2 {
-  background-image: url(../Assets/Img/607.jpg);
+  background-image: url(../assets/img/nuevofondo.jpg);
   background-size: cover;
   padding: 10px 10px 10px 10px; }
   .main2 h1 {
@@ -38,6 +38,13 @@
   .main2 section {
     font-family: 'Raleway', sans-serif;
     padding: 20px; }
+
+.Titulo {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: inline-block;
+  align-self: center;
+  padding: 5px; }
 
 .containergrid {
   display: grid;

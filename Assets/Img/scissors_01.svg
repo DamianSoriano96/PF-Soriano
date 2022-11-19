@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg18453" viewBox="0 0 385.79 430.69" version="1.0">
+  <path id="path48999" stroke="#000" stroke-width="7.5406" d="m223.66 189.87c40.11-55.31 48.78-95.731 62.36-91.863 10.62 3.023 5.52 12.113 33.59 18.523 26.95 6.16 54.48-15.96 60.2-42.656 7.62-26.163-4.73-59.047-32.36-67.165-27.34-9.8952-59.93 6.188-69.66 33.419-14.09 31.13-21.32 72.242-66.88 107.53l-34.96 27.09-121.01 170.84c-13.534 22.08-21.658 51.47-4.115 79.44l172.84-235.16zm129.82-103.12c-23.31 23.251-64.54 9.071-64.47-21.965-1.65-28.553 33.06-54.558 58.85-38.26 21.73 11.428 21.57 44.309 5.62 60.225z"/>
+  <path id="path49000" stroke="#000" stroke-width="7.5406" d="m161.84 191.37c-39.99-55.39-48.57-95.832-62.161-91.994-10.627 3.004-5.543 12.104-33.624 18.454-26.962 6.09-54.445-16.09-60.106-42.796-7.5603-26.18 4.862-59.036 32.508-67.093 27.363-9.8338 59.916 6.322 69.583 33.575 14.03 31.161 21.16 72.294 66.64 107.68l34.91 27.16 120.62 171.11c13.49 22.12 21.54 51.52 3.94 79.45l-172.31-235.55zm-129.59-103.4c23.254 23.302 64.514 9.214 64.512-21.821 1.714-28.55-32.933-54.632-58.766-38.391-21.747 11.379-21.664 44.26-5.746 60.212z"/>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>scissors</dc:title>
+        <dc:date>2010-04-03T06:52:16</dc:date>
+        <dc:description>Graphics by Jon Phillips. From OCAL 0.18 release.</dc:description>
+        <dc:source>http://openclipart.org/detail/36289/scissors-by-anonymous</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Anonymous</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>cutting</rdf:li>
+            <rdf:li>household</rdf:li>
+            <rdf:li>office</rdf:li>
+            <rdf:li>school</rdf:li>
+            <rdf:li>scissors</rdf:li>
+            <rdf:li>silhouette</rdf:li>
+            <rdf:li>tool</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,5 +1,5 @@
 .main2{
-    background-image: url(../Assets/Img/607.jpg);
+    background-image: url(../assets/img/nuevofondo.jpg);
     background-size:cover;
     padding: 10px 10px 10px 10px;
 
@@ -14,6 +14,14 @@
     }
 
 }
+
+.Titulo{
+  background-color: $backgroundcolor;
+  color: $color;
+  display: inline-block;
+  align-self: center;
+  padding: 5px;
+  }
 
 .containergrid{
   display: grid;
