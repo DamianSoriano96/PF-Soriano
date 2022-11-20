@@ -30,7 +30,7 @@
     color: violet; }
 
 .main2 {
-  background-image: url(../assets/img/nuevofondo.jpg);
+  background-image: url(../assets/img/background.jpg);
   background-size: cover;
   padding: 10px 10px 10px 10px; }
   .main2 h1 {
