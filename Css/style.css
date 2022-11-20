@@ -149,7 +149,7 @@
     opacity: 1; } }
 
 .contact-form-wrapper {
-  padding: 50px 0; }
+  padding: 70px 0; }
 
 .contact-form {
   padding: 30px 40px;
@@ -340,11 +340,6 @@
   .box-1 {
     font-size: 20px;
     text-align: center; }
-  .footer {
-    flex-direction: row; }
-    .footer nav a {
-      padding: 10px;
-      align-items: center; }
   .gallery-container {
     width: 100%;
     display: flex;
@@ -381,7 +376,7 @@
 
 .footer3 {
   background-color: black;
-  padding: 50px;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-content: space-between; }
